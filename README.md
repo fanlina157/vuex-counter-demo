@@ -19,6 +19,18 @@ npm run build
 ```
 npm run lint
 ```
+### 自定义eslint
+
+###### 新建.prettierrc 文件  
+
+```
+{ 
+  "semi":false,    // 不使用分号
+  "singleQuote":true  // 单引号
+}
+
+```
+
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
